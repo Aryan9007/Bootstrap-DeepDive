@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Home | Bit Academy</title>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+</head>
+
+<body class="p-3 mb-2 bg-info text-white">
+  <header>
+    <nav class="navbar navbar-expand-sm navbar-light bg-secondary">
+      <a class="navbar-brand" href="index.html"><img
+          src="data:image/png;base64,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"
+          height="60px" width="auto" class="rounded float-start" alt="Grote afbeelding"></a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item dropdown">
+
+
+            <div class="dropdown custom-dropdown ">
+              <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown">
+                MBO/HBO
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">MBO Software Developer</a></li>
+                <li><a class="dropdown-item" href="idex.html">HBO Software Developer</a></li>
+                <li><a class="dropdown-item" href="#">Locaties</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <div class="dropdown custom-dropdown">
+              <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown">
+                STAP-budget
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">STAP-budget meer info</a></li>
+                <li><a class="dropdown-item" href="#">Certificaten met STAP web</a></li>
+                <li><a class="dropdown-item" href="#">Certificaten met STAP data</a></li>
+              </ul>
+            </div>
+          </li>
+
+
+          <li class="nav-item dropdown">
+            <div class="dropdown custom-dropdown">
+              <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown">
+                Pro Opleiding
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Academy Pro info</a></li>
+                <li><a class="dropdown-item" href="#">Onze opleidingen web</a></li>
+                <li><a class="dropdown-item" href="#">Onze opleidingen data</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#">Voor opleiders</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="d-flex mt-5 bg-secondary">
+      <div>
+        <h2>[toekomst]_ready</h2></br>
+        <h1>Boost je tech-carrière met Bit Academy</h1></br>
+        <h5>Bij ons volg je het beste tech-onderwijs. Of je nu al technische kennis hebt en
+          je deze wilt uitbreiden of juist helemaal vanaf het begin start: wij helpen je om
+          je doelen te behalen.</h5>
+      </div>
+
+      <img class="ms-auto border-right rounded"
+        src="https://assets-global.website-files.com/6433e2279fd61134d70bd465/64491801a269b11cc3ebd78b_PRO_Verdi_Connected_World_a_27-30-year-old_man_engaged_in_a_video_3ff.webp"
+        height="400" width="auto">
+    </div>
+    </div>
+    </main>
+  </header>
+  <main>
+
+  </main>
+
+  <div class="my-5 m-0">
+</body>
+<footer class="bg-secondary text-center text-lg-start text-white">
+
+  <div class="p-4">
+
+    <div class="row my-4">
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+
+        <div>
+          <img
+            src="https://assets-global.website-files.com/6433e2279fd61134d70bd465/6438bba056fc5e5d24b686db_BA%20Logo%20Primary.svg"
+            height="80" class="mx-auto" alt="" loading="lazy" />
+        </div>
+
+        <p class="text-center"></p>
+
+        <ul class="list-unstyled d-flex flex-row justify-content-center">
+          <li>
+            <a class="text-white px-2" href="#!">
+              <i class="fab fa-facebook-square"></i>
+            </a>
+          </li>
+          <li>
+            <a class="text-white px-2" href="#!">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a class="text-white ps-2" href="#!">
+              <i class="fab fa-youtube"></i>
+            </a>
+          </li>
+        </ul>
+
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase mb-4">Bit Academy</h5>
+
+        <ul class="list-unstyled">
+          <li class="mb-2">
+            <i class="fas fa-map-marker-alt pe-2"></i>Over ons</i>
+          </li>
+          <li class="mb-2">
+            <i class="fas fa-map-marker-alt pe-2"></i>Veelgestelde vragen</i>
+          </li>
+          <li class="mb-2">
+            <i class="fas fa-map-marker-alt pe-2"></i>Contact</i>
+          </li>
+          <li class="mb-2">
+            <i class="fas fa-map-marker-alt pe-2"></i>Algemene Voorwaarden</i>
+          </li>
+          <li class="mb-2">
+            <i class="fas fa-map-marker-alt pe-2"></i>Privacy Policy</i>
+          </li>
+          <li class="mb-2">
+            <i class="fas fa-map-marker-alt pe-2"></i>NTRO algemene Voorwaarden</i>
+          </li>
+          <li class="mb-2">
+            <i class="fas fa-map-marker-alt pe-2"></i>NTRO gedragscode</i>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase mb-4">MBO Opleiding</h5>
+
+        <ul class="list-unstyled">
+          <li class="mb-2">
+            <i class="fas fa-map-marker-alt pe-2"></i>MBO SOftware Defeloper</i>
+          </li>
+        </ul></br>
+
+        <h5 class="text-uppercase mb-4">HBO Opleiding</h5>
+
+        <ul class="list-unstyled">
+          <li class="mb-2">
+            <i class="fas fa-map-marker-alt pe-2"></i>HBO SOftware Defeloper</i>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase mb-4">Pro Opleiding</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <p><i class="fas fa-map-marker-alt pe-2"></i>Frontend Web Defeloper</p>
+          </li>
+          <li>
+            <p><i class="fas fa-map-marker-alt pe-2"></i>Backend Web Defeloper</p>
+          </li>
+          <li>
+            <p><i class="fas fa-map-marker-alt pe-2"></i>Full Stack Defeloper</p>
+          </li>
+          <li>
+            <p><i class="fas fa-map-marker-alt pe-2"></i>Data Analist</p>
+          </li>
+          <li>
+            <p><i class="fas fa-map-marker-alt pe-2"></i>Data Engineer</p>
+          </li>
+          <li>
+            <p><i class="fas fa-map-marker-alt pe-2"></i>ChatGPT Expert</p>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+</footer>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+  integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+  integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+
+
+</html>
